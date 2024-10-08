@@ -6,18 +6,6 @@ export const Skill_data = [
         height: 55,
     },
     {
-        skill_name: "Swagger",
-        Image: "/swagger.png",
-        width: 55,
-        height: 55,
-    },
-    {
-        skill_name: "vite",
-        Image: "/vite.png",
-        width: 55,
-        height: 55,
-    },
-    {
         skill_name: "Framer Motion",
         Image: "/framer.png",
         width: 50,
@@ -41,17 +29,12 @@ export const Socials = [
     {
         name: "Discord",
         src: "/instagram.svg",
-        link: "https://discord.com/channels/1107228315196067910/1107228315737141299/"
-    },
-    {
-        name: "Telegram",
-        src: "/tg.webp",
-        link: "https://t.me/SenseiDevx/"
+        link: "https://www.instagram.com/suhani_mahe/"
     },
     {
         name: "Instagram",
         src: "/discord.svg",
-        link: "https://www.instagram.com/sensei_devx/"
+        link: "https://discord.com"
     },
 ];
 
@@ -145,12 +128,6 @@ export const Backend_skill = [
         height: 55,
     },
     {
-        skill_name: "insomia",
-        Image: "/insomnia.png",
-        width: 55,
-        height: 55,
-    },
-    {
         skill_name: "linux",
         Image: "/linux.png",
         width: 55,
@@ -195,28 +172,10 @@ export const Full_stack = [
         width: 80,
         height: 80,
     },
-    {
-        skill_name: "JWT",
-        Image: "/JWT.png",
-        width: 55,
-        height: 55,
-    },
-    {
-        skill_name: "Trello",
-        Image: "/trello.png",
-        width: 80,
-        height: 80,
-    },
 ];
 
 
 export const Other_skill = [
-    {
-        skill_name: "chakra",
-        Image: "/chakra.png",
-        width: 55,
-        height: 55,
-    },
     {
         skill_name: "Material UI",
         Image: "/mui.png",

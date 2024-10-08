@@ -24,8 +24,7 @@ const HeroContent = () => {
                 >
                     <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5"/>
                     <h1 className="Welcome-text text-[13px]">
-                        Fullstack Developer Portfolio
-                    </h1>
+                        Welcome To My Portfolio                    </h1>
                 </motion.div>
 
                 <motion.div
@@ -33,12 +32,12 @@ const HeroContent = () => {
                     className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
                     <span className="text-sm md:text-base lg:text-lg xl:text-xl">
-                        Providing
+                        Hi, I am 
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                             {" "}
-                            the best{" "}
+                            Suhani Maheshwari{" "}
                         </span>
-                        project experience
+                        - Frontend Developer
                     </span>
 
                 </motion.div>
@@ -47,12 +46,12 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className="text-lg text-gray-400 my-5 max-w-[600px]"
                 >
-                    I&apos;m a Full Stack Software Engineer with experience in Website,
-                    Mobile, and Software development. Check out my projects and skills.
+                    I&apos;m a software developer specializing in creating tailored applications using contemporary web technologies. For the past two years, I have been employed at LogiNext as a Software Engineer, where I have concentrated on frontend development utilizing ReactJs and Redux.
                 </motion.p>
                 <motion.a
                     variants={slideInFromLeft(1)}
                     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+                    href="https://www.linkedin.com/in/suhani-maheshwari-a6b7161a3/"
                 >
                     Learn More!
                 </motion.a>

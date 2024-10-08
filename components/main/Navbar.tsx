@@ -15,7 +15,7 @@ const Navbar = () => {
                         className="cursor-pointer hover:animate-slowspin"
                     />
                     <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-                        Omurbek
+                        Suhani Maheshwari
                     </span>
                 </a>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
                             Skills
                         </a>
                         <a href="#projects" className="cursor-pointer">
-                            Projects
+                            Experience
                         </a>
                     </div>
                 </div>
