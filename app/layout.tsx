@@ -9,7 +9,8 @@ const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
     title: "Suhani Maheshwari",
-    description: "This is my portfolio",
+    description:
+        "Suhani Maheshwari — Frontend engineer with 4+ years building production React/TypeScript apps, design systems, and reusable SDKs.",
 };
 
 export default function RootLayout({

@@ -39,8 +39,10 @@ const StarBackground = (props: any) => {
 };
 
 const StarsCanvas = () => (
-    <div className="w-full h-auto fixed inset-0 z-[20]">
-        <Canvas camera={{position: [0, 0, 1]}}>
+    <div className="w-full h-auto fixed inset-0 z-[20] pointer-events-none">
+        {/* Decorative only: let clicks pass through to the page underneath.
+            R3F's Canvas sets pointer-events: auto by default, so override it here. */}
+        <Canvas camera={{position: [0, 0, 1]}} style={{pointerEvents: "none"}}>
             <Suspense fallback={null}>
                 <StarBackground/>
             </Suspense>

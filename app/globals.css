@@ -71,4 +71,6 @@
 
 html {
     scroll-behavior: smooth;
+    /* Keep section headings clear of the fixed 65px navbar when jumping via nav links */
+    scroll-padding-top: 80px;
 }
